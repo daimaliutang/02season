@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fPL-fl-l26">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--四季-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="四季" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="四季" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4x-g1-Zrp">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="219" id="QxS-UE-ttj"/>
+                                    <constraint firstAttribute="height" constant="48" id="xXX-qD-m4w"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qTs-Wk-xtZ">
+                                <color key="backgroundColor" red="0.44521623849868774" green="0.75990116596221924" blue="0.010530382394790649" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="Qwm-rq-NGT"/>
+                                    <constraint firstAttribute="height" constant="70" id="U5F-w1-HC5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="春天">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="springButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sER-W4-Y4y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5O4-cv-DBh">
+                                <color key="backgroundColor" red="0.12345094233751297" green="0.4555429220199585" blue="0.0019042149651795626" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="Isy-qj-Lh9"/>
+                                    <constraint firstAttribute="height" constant="70" id="Pyt-BP-QSO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="夏天">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="summerButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Lv-tD-dfV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9p-1K-KGp">
+                                <color key="backgroundColor" red="0.62037283182144165" green="0.81692808866500854" blue="0.98767608404159546" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="gi0-Hm-E23"/>
+                                    <constraint firstAttribute="height" constant="70" id="ncd-VI-g7P"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="冬天">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="winterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TRx-kT-eDu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iOd-Yt-wDh">
+                                <color key="backgroundColor" red="0.92939299345016479" green="0.53523880243301392" blue="0.028835758566856384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="5he-Ft-kjT"/>
+                                    <constraint firstAttribute="height" constant="70" id="u4N-qr-h2A"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="秋天">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="autumnButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="puz-mS-CXX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="R4x-g1-Zrp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3fY-LL-PYK"/>
+                            <constraint firstItem="iOd-Yt-wDh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="B3B-gL-JaV"/>
+                            <constraint firstItem="5O4-cv-DBh" firstAttribute="top" secondItem="qTs-Wk-xtZ" secondAttribute="bottom" constant="5" id="Ejm-4V-X0m"/>
+                            <constraint firstItem="5O4-cv-DBh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JRz-gf-wk2"/>
+                            <constraint firstItem="qTs-Wk-xtZ" firstAttribute="top" secondItem="R4x-g1-Zrp" secondAttribute="bottom" constant="5" id="MGC-Kp-y5d"/>
+                            <constraint firstItem="iOd-Yt-wDh" firstAttribute="top" secondItem="5O4-cv-DBh" secondAttribute="bottom" constant="5" id="Zvb-DN-P6h"/>
+                            <constraint firstItem="R4x-g1-Zrp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="hE2-Hf-5tO"/>
+                            <constraint firstItem="N9p-1K-KGp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pCQ-8t-OLi"/>
+                            <constraint firstItem="qTs-Wk-xtZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="r6u-AS-eFh"/>
+                            <constraint firstItem="N9p-1K-KGp" firstAttribute="top" secondItem="iOd-Yt-wDh" secondAttribute="bottom" constant="5" id="wQ1-46-jKw"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="1W0-Uz-ETm"/>
+                    <connections>
+                        <segue destination="cRS-dl-YA0" kind="show" identifier="spring" id="8qk-hY-20c"/>
+                        <segue destination="kWk-1f-aiR" kind="show" identifier="summer" id="nYe-37-5B6"/>
+                        <segue destination="yQ1-le-CNW" kind="show" identifier="autumn" id="PbT-rs-S0p"/>
+                        <segue destination="hgF-FV-nAc" kind="show" identifier="winter" id="iP0-Jo-hBm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245.59999999999999" y="415.14242878560725"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ehj-G5-K9h">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fPL-fl-l26" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="woz-4Y-FK8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="FNg-jP-3er"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cuM-cP-t1k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-468" y="416"/>
+        </scene>
+        <!--春天-->
+        <scene sceneID="28d-ow-7Vi">
+            <objects>
+                <viewController title="春天" id="cRS-dl-YA0" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="n7H-NU-Dk8"/>
+                        <viewControllerLayoutGuide type="bottom" id="X7I-u1-nKG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ctV-4N-TcQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spring" translatesAutoresizingMaskIntoConstraints="NO" id="1K0-Fs-MUJ">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="282" id="X0E-30-v47"/>
+                                    <constraint firstAttribute="height" constant="163" id="sCR-8m-3jl"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="细雨无声润物，和风有意迎春" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aw5-Ir-u6w">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="tYW-CV-ubY"/>
+                                    <constraint firstAttribute="height" constant="21" id="xkv-SZ-svl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Aw5-Ir-u6w" firstAttribute="centerX" secondItem="ctV-4N-TcQ" secondAttribute="centerX" id="Liu-aU-pD6"/>
+                            <constraint firstItem="1K0-Fs-MUJ" firstAttribute="centerX" secondItem="ctV-4N-TcQ" secondAttribute="centerX" id="iQQ-Sh-5AG"/>
+                            <constraint firstItem="1K0-Fs-MUJ" firstAttribute="top" secondItem="Aw5-Ir-u6w" secondAttribute="bottom" constant="66" id="skX-M5-F6Y"/>
+                            <constraint firstItem="Aw5-Ir-u6w" firstAttribute="top" secondItem="n7H-NU-Dk8" secondAttribute="bottom" constant="101" id="w3k-I4-mM6"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="agy-s3-oMx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-516" y="1289"/>
+        </scene>
+        <!--夏天-->
+        <scene sceneID="zLc-53-rvl">
+            <objects>
+                <viewController title="夏天" id="kWk-1f-aiR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7HD-XT-Q40"/>
+                        <viewControllerLayoutGuide type="bottom" id="l6G-PJ-ek0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ung-BH-LlF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="summer" translatesAutoresizingMaskIntoConstraints="NO" id="WpD-sF-wcZ">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="282" id="aek-fr-WJF"/>
+                                    <constraint firstAttribute="height" constant="163" id="quv-BV-r8V"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="接天莲叶无穷碧，映日荷花别样红" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2e-mY-Obu">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="SbN-VY-9Zr"/>
+                                    <constraint firstAttribute="width" constant="274" id="iFK-Pb-a6X"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="h2e-mY-Obu" firstAttribute="top" secondItem="7HD-XT-Q40" secondAttribute="bottom" constant="101" id="41i-7z-xv8"/>
+                            <constraint firstItem="WpD-sF-wcZ" firstAttribute="top" secondItem="h2e-mY-Obu" secondAttribute="bottom" constant="66" id="EIw-iq-NtK"/>
+                            <constraint firstItem="WpD-sF-wcZ" firstAttribute="centerX" secondItem="Ung-BH-LlF" secondAttribute="centerX" id="eLM-Zy-XCQ"/>
+                            <constraint firstItem="h2e-mY-Obu" firstAttribute="centerX" secondItem="Ung-BH-LlF" secondAttribute="centerX" id="rP9-jX-aPx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O2w-1u-LiL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="193" y="1289"/>
+        </scene>
+        <!--秋天-->
+        <scene sceneID="UMK-xw-eos">
+            <objects>
+                <viewController title="秋天" id="yQ1-le-CNW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="H4k-al-mrs"/>
+                        <viewControllerLayoutGuide type="bottom" id="ruA-aW-5mh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="k7h-Ji-bT2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="autumn" translatesAutoresizingMaskIntoConstraints="NO" id="1wQ-ze-XHE">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="163" id="GIk-NP-W7i"/>
+                                    <constraint firstAttribute="width" constant="282" id="qRP-Ol-lWu"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="落红不是无情物，化作春泥更护花" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcV-3q-OL5">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="268" id="Heo-h6-qCd"/>
+                                    <constraint firstAttribute="height" constant="21" id="Sam-ry-gkw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1wQ-ze-XHE" firstAttribute="centerX" secondItem="k7h-Ji-bT2" secondAttribute="centerX" id="EeY-tl-oAk"/>
+                            <constraint firstItem="1wQ-ze-XHE" firstAttribute="top" secondItem="fcV-3q-OL5" secondAttribute="bottom" constant="67" id="pnU-JS-gC2"/>
+                            <constraint firstItem="fcV-3q-OL5" firstAttribute="centerX" secondItem="k7h-Ji-bT2" secondAttribute="centerX" id="rcp-0v-ELZ"/>
+                            <constraint firstItem="fcV-3q-OL5" firstAttribute="top" secondItem="H4k-al-mrs" secondAttribute="bottom" constant="100" id="vH8-Mc-rwi"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DRl-gG-wVz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="827" y="1304"/>
+        </scene>
+        <!--冬天-->
+        <scene sceneID="NQ2-Sr-y1f">
+            <objects>
+                <viewController title="冬天" id="hgF-FV-nAc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="G3P-Cy-Lk2"/>
+                        <viewControllerLayoutGuide type="bottom" id="Yqm-72-GbE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uVV-6G-LKR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="winter" translatesAutoresizingMaskIntoConstraints="NO" id="CDw-np-Own">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="163" id="YXE-jc-wWu"/>
+                                    <constraint firstAttribute="width" constant="282" id="vWb-5E-pZt"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="北国风光，千里冰封，万里雪飘" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JyS-C2-tb6">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="255" id="50i-hY-f3r"/>
+                                    <constraint firstAttribute="height" constant="21" id="Gdx-FQ-fBG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CDw-np-Own" firstAttribute="centerX" secondItem="uVV-6G-LKR" secondAttribute="centerX" id="DNF-ra-Of7"/>
+                            <constraint firstItem="CDw-np-Own" firstAttribute="top" secondItem="JyS-C2-tb6" secondAttribute="bottom" constant="66" id="HOq-7x-s84"/>
+                            <constraint firstItem="JyS-C2-tb6" firstAttribute="centerX" secondItem="uVV-6G-LKR" secondAttribute="centerX" id="jsW-or-pnI"/>
+                            <constraint firstItem="JyS-C2-tb6" firstAttribute="top" secondItem="G3P-Cy-Lk2" secondAttribute="bottom" constant="101" id="nDg-ok-jn7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="REd-6r-Vxt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1553" y="1304"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="autumn" width="1024" height="768"/>
+        <image name="spring" width="1024" height="768"/>
+        <image name="summer" width="1920" height="1200"/>
+        <image name="winter" width="1024" height="768"/>
+    </resources>
+</document>
